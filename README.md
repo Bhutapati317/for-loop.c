@@ -1,2 +1,10 @@
-# for-loop.c
-write a program to print for the for loop.c
+#include<stdio.h>
+int main()
+{
+    int n;
+    scanf("%d",&n);
+    for(int i=1;i<=n;i++)
+    {
+        printf("%d",i);
+    }
+}
